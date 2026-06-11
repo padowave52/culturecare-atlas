@@ -1,57 +1,15 @@
-const top20Regions = [{"region": "전남 고흥군", "score": 99.84, "rank": 1, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "전북 김제시", "score": 97.16, "rank": 2, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "인천 옹진군", "score": 93.78, "rank": 3, "main_cause": "생활문화환경 부족", "best_policy": "생활문화환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "전남 신안군", "score": 91.8, "rank": 4, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "전북 임실군", "score": 89.07, "rank": 5, "main_cause": "생활문화환경 부족", "best_policy": "생활문화환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경북 의성군", "score": 88.47, "rank": 6, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경북 봉화군", "score": 87.66, "rank": 7, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상"}, {"region": "경북 영덕군", "score": 85.2, "rank": 8, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상"}, {"region": "경남 산청군", "score": 82.43, "rank": 9, "main_cause": "포용환경 부족", "best_policy": "포용환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경남 거창군", "score": 81.77, "rank": 10, "main_cause": "디지털 접근 부족", "best_policy": "디지털 접근", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경북 경산시", "score": 81.06, "rank": 11, "main_cause": "핵심문화공급 부족", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "전북 순창군", "score": 77.41, "rank": 12, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경북 청도군", "score": 76.74, "rank": 13, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경남 의령군", "score": 76.52, "rank": 14, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "대전 동구", "score": 76.37, "rank": 15, "main_cause": "디지털 접근 부족", "best_policy": "디지털 접근", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경북 영양군", "score": 76.05, "rank": 16, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상"}, {"region": "전남 구례군", "score": 75.8, "rank": 17, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "서울 금천구", "score": 75.72, "rank": 18, "main_cause": "핵심문화공급 부족", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}, {"region": "경북 청송군", "score": 74.84, "rank": 19, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상"}, {"region": "전남 함평군", "score": 72.64, "rank": 20, "main_cause": "포용환경 부족", "best_policy": "포용환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역"}];
+const top20Regions = [{"region": "전남 고흥군", "score": 99.84, "rank": 1, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 50, "map_y": 83}, {"region": "전북 김제시", "score": 97.16, "rank": 2, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 45, "map_y": 60}, {"region": "인천 옹진군", "score": 93.78, "rank": 3, "main_cause": "생활문화환경 부족", "best_policy": "생활문화환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 18, "map_y": 42}, {"region": "전남 신안군", "score": 91.8, "rank": 4, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 32, "map_y": 75}, {"region": "전북 임실군", "score": 89.07, "rank": 5, "main_cause": "생활문화환경 부족", "best_policy": "생활문화환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 43, "map_y": 66}, {"region": "경북 의성군", "score": 88.47, "rank": 6, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 63, "map_y": 44}, {"region": "경북 봉화군", "score": 87.66, "rank": 7, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상", "map_x": 70, "map_y": 37}, {"region": "경북 영덕군", "score": 85.2, "rank": 8, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상", "map_x": 77, "map_y": 45}, {"region": "경남 산청군", "score": 82.43, "rank": 9, "main_cause": "포용환경 부족", "best_policy": "포용환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 57, "map_y": 66}, {"region": "경남 거창군", "score": 81.77, "rank": 10, "main_cause": "디지털 접근 부족", "best_policy": "디지털 접근", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 59, "map_y": 61}, {"region": "경북 경산시", "score": 81.06, "rank": 11, "main_cause": "핵심문화공급 부족", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 69, "map_y": 58}, {"region": "전북 순창군", "score": 77.41, "rank": 12, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 42, "map_y": 69}, {"region": "경북 청도군", "score": 76.74, "rank": 13, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 68, "map_y": 61}, {"region": "경남 의령군", "score": 76.52, "rank": 14, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 61, "map_y": 70}, {"region": "대전 동구", "score": 76.37, "rank": 15, "main_cause": "디지털 접근 부족", "best_policy": "디지털 접근", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 48, "map_y": 48}, {"region": "경북 영양군", "score": 76.05, "rank": 16, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상", "map_x": 73, "map_y": 42}, {"region": "전남 구례군", "score": 75.8, "rank": 17, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 45, "map_y": 73}, {"region": "서울 금천구", "score": 75.72, "rank": 18, "main_cause": "핵심문화공급 부족", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 42, "map_y": 30}, {"region": "경북 청송군", "score": 74.84, "rank": 19, "main_cause": "수요취약성", "best_policy": "핵심문화공급", "priority_group": "상위 20%", "spatial_type": "최우선 공간정책 대상", "map_x": 74, "map_y": 47}, {"region": "전남 함평군", "score": 72.64, "rank": 20, "main_cause": "포용환경 부족", "best_policy": "포용환경", "priority_group": "상위 20%", "spatial_type": "개별 고취약지역", "map_x": 39, "map_y": 76}];
 const priority12Regions = ["경북 봉화군", "경북 영덕군", "경북 영양군", "경북 청송군", "전남 장흥군", "경남 함양군", "전북 부안군", "경북 안동시", "경북 영천시", "전남 강진군", "전남 완도군", "경북 울진군"];
 const regionList = document.getElementById("regionList");
 const regionSearch = document.getElementById("regionSearch");
 const diagnosisCard = document.getElementById("diagnosisCard");
 const priority12List = document.getElementById("priority12List");
-
-function renderRegionList(items) {
-  regionList.innerHTML = "";
-  items.forEach((item) => {
-    const button = document.createElement("button");
-    button.className = "region-item";
-    button.innerHTML = `<strong>${item.rank}. ${item.region}</strong><span>${item.score.toFixed(2)}점 · ${item.main_cause}</span>`;
-    button.addEventListener("click", () => renderDiagnosis(item, button));
-    regionList.appendChild(button);
-  });
-}
-
-function renderDiagnosis(item, activeButton) {
-  document.querySelectorAll(".region-item").forEach(el => el.classList.remove("active"));
-  if (activeButton) activeButton.classList.add("active");
-  const isSpatialPriority = item.spatial_type.includes("최우선");
-  const policyText = isSpatialPriority
-    ? "주변 지역과 함께 취약한 공간군집이므로 인접 지자체 공동 순회 문화서비스, 광역 문화버스, 공동 디지털 문화거점 등 권역 공동정책을 우선 검토합니다."
-    : `${item.best_policy} 영역을 중심으로 시군구별 맞춤형 직접개입을 우선 검토합니다.`;
-  diagnosisCard.innerHTML = `
-    <span class="badge">${item.spatial_type}</span>
-    <h3>${item.region}</h3>
-    <div class="score">${item.score.toFixed(2)}</div>
-    <p>CultureCare 문화접근 취약도 전국 ${item.rank}위 지역입니다.</p>
-    <div class="detail-grid">
-      <div><span>전국 순위</span><strong>${item.rank}위</strong></div>
-      <div><span>정책 우선그룹</span><strong>${item.priority_group}</strong></div>
-      <div><span>주요 취약원인</span><strong>${item.main_cause}</strong></div>
-      <div><span>우선 정책영역</span><strong>${item.best_policy}</strong></div>
-    </div>
-    <div class="policy-recommendation"><strong>권장 정책방향</strong><br>${policyText}</div>`;
-}
-
-function renderPriority12() {
-  priority12List.innerHTML = "";
-  priority12Regions.forEach((region) => {
-    const li = document.createElement("li");
-    li.textContent = region;
-    priority12List.appendChild(li);
-  });
-}
-
-regionSearch.addEventListener("input", (event) => {
-  const q = event.target.value.trim();
-  const filtered = top20Regions.filter(item => item.region.includes(q) || item.main_cause.includes(q) || item.best_policy.includes(q));
-  renderRegionList(filtered);
-});
-
-renderRegionList(top20Regions);
-renderPriority12();
-renderDiagnosis(top20Regions[6]);
+const focusMap = document.getElementById("focusMap");
+const mapMarker = document.getElementById("mapMarker");
+const focusMapTitle = document.getElementById("focusMapTitle");
+function renderRegionList(items) { regionList.innerHTML = ""; items.forEach((item) => { const button = document.createElement("button"); button.className = "region-item"; button.dataset.region = item.region; button.innerHTML = `<strong>${item.rank}. ${item.region}</strong><span>${item.score.toFixed(2)}점 · ${item.main_cause}</span>`; button.addEventListener("click", () => renderDiagnosis(item, button)); regionList.appendChild(button); }); }
+function focusMapTo(item) { const scale = 2.15; focusMap.style.transformOrigin = `${item.map_x}% ${item.map_y}%`; focusMap.style.transform = `scale(${scale})`; mapMarker.style.left = `${item.map_x}%`; mapMarker.style.top = `${item.map_y}%`; mapMarker.classList.add("active"); focusMapTitle.textContent = `${item.region} 위치 확대`; }
+function renderDiagnosis(item, activeButton) { document.querySelectorAll(".region-item").forEach(el => el.classList.toggle("active", el.dataset.region === item.region)); const isSpatialPriority = item.spatial_type.includes("최우선"); const policyText = isSpatialPriority ? "주변 지역과 함께 취약한 공간군집이므로 인접 지자체 공동 순회 문화서비스, 광역 문화버스, 공동 디지털 문화거점 등 권역 공동정책을 우선 검토합니다." : `${item.best_policy} 영역을 중심으로 시군구별 맞춤형 직접개입을 우선 검토합니다.`; diagnosisCard.innerHTML = `<span class="badge">${item.spatial_type}</span><h3>${item.region}</h3><div class="score">${item.score.toFixed(2)}</div><p>CultureCare 문화접근 취약도 전국 ${item.rank}위 지역입니다.</p><div class="detail-grid"><div><span>전국 순위</span><strong>${item.rank}위</strong></div><div><span>정책 우선그룹</span><strong>${item.priority_group}</strong></div><div><span>주요 취약원인</span><strong>${item.main_cause}</strong></div><div><span>우선 정책영역</span><strong>${item.best_policy}</strong></div></div><div class="policy-recommendation"><strong>권장 정책방향</strong><br>${policyText}</div>`; focusMapTo(item); }
+function renderPriority12() { priority12List.innerHTML = ""; priority12Regions.forEach((region) => { const li = document.createElement("li"); li.textContent = region; priority12List.appendChild(li); }); }
+regionSearch.addEventListener("input", (event) => { const q = event.target.value.trim(); const filtered = top20Regions.filter(item => item.region.includes(q) || item.main_cause.includes(q) || item.best_policy.includes(q)); renderRegionList(filtered); });
+renderRegionList(top20Regions); renderPriority12(); renderDiagnosis(top20Regions[6]);
