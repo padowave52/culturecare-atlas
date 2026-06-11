@@ -1,1 +1,78 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><title>CultureCare Atlas | 문화접근 정책 처방지도</title><link rel="stylesheet" href="style.css"/></head><body><aside class="rail"><a class="logo" href="#top"><span>CC</span><b>CultureCare<br>Atlas</b></a><nav><a href="#why">문제정의</a><a href="#index">진단지수</a><a href="#regional">지역진단</a><a href="#spatial">공간정책</a><a href="#whatif">정책실험</a><a href="#method">데이터·방법</a></nav></aside><main id="top"><section class="hero"><div class="hero-copy"><span class="tag">문화는 있는데, 닿지 않는다</span><h1>문화접근 사각지대를 찾는<br>정책 처방지도</h1><p>CultureCare는 전국 252개 시군구의 문화자원, 인구·가구 구조, 디지털 접근성, 생활문화 기반, 포용환경을 함께 분석해 문화지원이 우선 필요한 지역과 정책 개입 방향을 제안합니다.</p><div class="actions"><a href="#regional">지역별 진단 보기</a><a class="ghost" href="#spatial">최우선 대상 보기</a></div></div><div class="hero-card"><small>Sample Diagnosis Card</small><h2>경북 봉화군</h2><div class="ring"><div><span>CultureCare</span><strong>87.66</strong><em>전국 7위</em></div></div><dl><div><dt>주요 취약원인</dt><dd>수요취약성</dd></div><div><dt>공간군집</dt><dd>High–High</dd></div><div><dt>정책방식</dt><dd>권역 공동정책</dd></div></dl></div></section><section id="why" class="section intro"><article class="story"><span>01 · Problem</span><h2>문화시설 수만으로는 실제 접근성을 설명하기 어렵습니다.</h2><p>도서관과 공연장이 있어도 고령인구가 많거나, 이동·디지털·포용환경이 부족한 지역에서는 문화서비스가 주민에게 충분히 닿기 어렵습니다. CultureCare는 문화자원의 보유 여부를 넘어 주민이 문화를 이용할 수 있는 조건을 함께 진단합니다.</p></article><div class="questions"><b>어디가 취약한가?</b><b>왜 취약한가?</b><b>무엇을 먼저 개선할까?</b><b>주변 지역도 함께 취약한가?</b></div></section><section id="index" class="section"><div class="head"><span>02 · Index</span><h2>CultureCare 핵심 결과</h2><p>문화자원 공급, 수요취약성, 생활문화·디지털·포용환경을 결합해 전국 시군구의 문화접근 취약 가능성을 비교했습니다.</p></div><div class="stats"><article><small>분석 단위</small><strong>252</strong><span>전국 시군구</span></article><article><small>핵심 문화자원</small><strong>8,469</strong><span>정제 후 문화자원</span></article><article><small>공간 자기상관</small><strong>0.345</strong><span>Moran's I, p=0.001</span></article><article><small>공간정책 대상</small><strong>12</strong><span>상위 20% ∩ High–High</span></article></div><figure class="figure wide solo"><img src="assets/figure_17_national_culturecare_vulnerability_map.png" onerror="this.closest('figure').classList.add('empty')" alt="전국 취약도 지도"><figcaption><b>전국 CultureCare 취약도 지도</b><span>점수가 높을수록 문화접근 취약 가능성이 높은 지역입니다. 이 지수는 정책 우선순위 선별을 위한 상대적 분석지표입니다.</span></figcaption></figure></section><section id="regional" class="section split"><div class="head sticky"><span>03 · Regional Diagnosis</span><h2>지역별 진단 카드</h2><p>지역을 선택하면 진단 카드와 지도 위치가 함께 반응합니다. 지도 위치 표시는 정적 지도 위에 표시한 안내용 포인트입니다.</p><input id="regionSearch" class="search" placeholder="지역명 또는 취약원인 검색"><div id="regionList" class="region-list"></div></div><div class="regional-right"><article id="diagnosisCard" class="diagnosis"><span class="badge">지역 진단</span><h3>지역을 선택하세요</h3><p>목록에서 시군구를 선택하면 상세 진단 결과가 표시됩니다.</p></article><figure class="figure map-focus-card"><div class="map-viewport" id="mapViewport"><img id="focusMap" src="assets/figure_17_national_culturecare_vulnerability_map.png" onerror="this.closest('figure').classList.add('empty')" alt="선택지역 지도 확대"><div id="mapMarker" class="map-marker" aria-hidden="true"></div></div><figcaption><b id="focusMapTitle">선택지역 위치 보기</b><span>지역을 선택하면 지도가 해당 권역 중심으로 부드럽게 확대됩니다.</span></figcaption></figure></div></section><section id="spatial" class="section"><div class="head"><span>04 · Spatial Priority</span><h2>개별 지역을 넘어 권역 단위로 봅니다.</h2><p>최종 취약도 상위 20%와 LISA High–High를 동시에 만족한 지역은 인접 지자체 공동정책이 필요한 최우선 공간정책 대상으로 분류했습니다.</p></div><div class="figure-grid"><figure class="figure wide"><img src="assets/figure_23_spatial_priority_target_map.png" onerror="this.closest('figure').classList.add('empty')" alt="최우선 공간정책 지도"><figcaption><b>최우선 공간정책 대상 지도</b><span>상위 20%와 High–High가 겹치는 지역을 권역 공동정책 대상으로 제시합니다.</span></figcaption></figure><div class="priority"><h3>12개 최우선 대상</h3><ul id="priority12List"></ul></div></div></section><section id="whatif" class="section"><div class="head"><span>05 · Policy What-if</span><h2>무엇을 개선하면 취약도가 낮아질까요?</h2><p>각 정책영역의 현재 부족 수준이 20% 또는 40% 완화된다는 가정 아래 지수를 재산정한 시나리오 분석입니다. 실제 정책효과를 인과적으로 예측한 결과가 아니라, 정책 우선순위 검토를 위한 가정 기반 분석입니다.</p></div><div class="triplet"><figure class="figure"><img src="assets/figure_14_top20_targeted_policy_effect_heatmap.png" onerror="this.closest('figure').classList.add('empty')" alt=""><figcaption><b>지역별 정책 시나리오</b><span>상위 취약지역별 개선 시나리오 결과를 비교합니다.</span></figcaption></figure><figure class="figure"><img src="assets/figure_15_best_policy_by_high_risk_region.png" onerror="this.closest('figure').classList.add('empty')" alt=""><figcaption><b>우선 정책영역</b><span>지역별로 가장 크게 지수가 개선되는 단일정책 영역을 보여줍니다.</span></figcaption></figure><figure class="figure"><img src="assets/figure_16_balanced_policy_before_after.png" onerror="this.closest('figure').classList.add('empty')" alt=""><figcaption><b>균형개선 전후 변화</b><span>복수 영역을 함께 개선했을 때의 지수 변화를 확인합니다.</span></figcaption></figure></div></section><section id="method" class="section"><div class="head"><span>06 · Data & Method</span><h2>문화데이터 중심의 융합 분석</h2></div><div class="method"><article><b>문화자원</b><span>도서관 · 박물관/미술관 · 공연장 · 축제 · 관광지</span></article><article><b>수요취약성</b><span>고령화 · 1인가구 · 연령구조 · 인구밀도</span></article><article><b>접근환경</b><span>디지털 · 생활문화 · 포용환경 · 이동 보조환경</span></article><article><b>정책처방</b><span>복합지수 · 민감도 · What-if · Moran/LISA 공간분석</span></article></div></section><footer><b>CultureCare Atlas</b><span>문화데이터 기반 전국 시군구 문화접근 취약도 진단 및 정책 처방지도</span></footer></main><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CultureCare Atlas | 문화접근 정책 처방지도</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <aside class="rail">
+    <a class="logo" href="#top"><span>CC</span><b>CultureCare<br>Atlas</b></a>
+    <nav>
+      <a href="#why">문제정의</a><a href="#index">진단지수</a><a href="#regional">지역진단</a>
+      <a href="#spatial">공간정책</a><a href="#whatif">정책실험</a><a href="#method">데이터·방법</a>
+    </nav>
+  </aside>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="tag">문화는 있는데, 닿지 않는다</span>
+        <h1>문화접근 사각지대를 찾는<br>정책 처방지도</h1>
+        <p>CultureCare는 전국 252개 시군구의 문화자원, 인구·가구 구조, 디지털 접근성, 생활문화 기반, 포용환경을 함께 분석해 문화지원이 우선 필요한 지역과 정책 개입 방향을 제안합니다.</p>
+        <div class="actions"><a href="#regional">지역별 진단 보기</a><a class="ghost" href="#spatial">최우선 대상 보기</a></div>
+      </div>
+      <div class="hero-card">
+        <small>Sample Diagnosis Card</small><h2>경북 봉화군</h2>
+        <div class="ring"><div><span>CultureCare</span><strong>87.66</strong><em>전국 7위</em></div></div>
+        <dl><div><dt>주요 취약원인</dt><dd>수요취약성</dd></div><div><dt>공간군집</dt><dd>High–High</dd></div><div><dt>정책방식</dt><dd>권역 공동정책</dd></div></dl>
+      </div>
+    </section>
+
+    <section id="why" class="section intro">
+      <article class="story"><span>01 · Problem</span><h2>문화시설 수만으로는 실제 접근성을 설명하기 어렵습니다.</h2><p>도서관과 공연장이 있어도 고령인구가 많거나, 이동·디지털·포용환경이 부족한 지역에서는 문화서비스가 주민에게 충분히 닿기 어렵습니다. CultureCare는 문화자원의 보유 여부를 넘어 주민이 문화를 이용할 수 있는 조건을 함께 진단합니다.</p></article>
+      <div class="questions"><b>어디가 취약한가?</b><b>왜 취약한가?</b><b>무엇을 먼저 개선할까?</b><b>주변 지역도 함께 취약한가?</b></div>
+    </section>
+
+    <section id="index" class="section">
+      <div class="head"><span>02 · Index</span><h2>CultureCare 핵심 결과</h2><p>문화자원 공급, 수요취약성, 생활문화·디지털·포용환경을 결합해 전국 시군구의 문화접근 취약 가능성을 비교했습니다.</p></div>
+      <div class="stats"><article><small>분석 단위</small><strong>252</strong><span>전국 시군구</span></article><article><small>핵심 문화자원</small><strong>8,469</strong><span>정제 후 문화자원</span></article><article><small>공간 자기상관</small><strong>0.345</strong><span>Moran's I, p=0.001</span></article><article><small>공간정책 대상</small><strong>12</strong><span>상위 20% ∩ High–High</span></article></div>
+      <figure class="figure wide solo"><img src="assets/figure_17_national_culturecare_vulnerability_map.png" onerror="this.closest('figure').classList.add('empty')" alt="전국 취약도 지도"><figcaption><b>전국 CultureCare 취약도 지도</b><span>점수가 높을수록 문화접근 취약 가능성이 높은 지역입니다. 이 지수는 정책 우선순위 선별을 위한 상대적 분석지표입니다.</span></figcaption></figure>
+    </section>
+
+    <section id="regional" class="section split">
+      <div class="head sticky"><span>03 · Regional Diagnosis</span><h2>지역별 진단 카드</h2><p>지역을 선택하면 진단 카드와 지도 위치가 함께 반응합니다. 확대 지도는 선택 지역을 이해하기 위한 안내용 시각화입니다.</p><input id="regionSearch" class="search" placeholder="지역명 또는 취약원인 검색"><div id="regionList" class="region-list"></div></div>
+      <div class="regional-right">
+        <article id="diagnosisCard" class="diagnosis"><span class="badge">지역 진단</span><h3>지역을 선택하세요</h3><p>목록에서 시군구를 선택하면 상세 진단 결과가 표시됩니다.</p></article>
+        <figure class="figure map-focus-card">
+          <div class="map-viewport" id="mapViewport">
+            <div class="map-layer" id="mapLayer">
+              <img id="focusMap" src="assets/figure_17_national_culturecare_vulnerability_map.png" onerror="this.closest('figure').classList.add('empty')" alt="선택지역 지도 확대">
+              <div id="mapMarker" class="map-marker" aria-hidden="true"></div>
+            </div>
+          </div>
+          <figcaption><b id="focusMapTitle">선택지역 위치 보기</b><span>선택한 지역을 중심으로 지도를 확대하고 위치 포인트를 표시합니다.</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="spatial" class="section">
+      <div class="head"><span>04 · Spatial Priority</span><h2>개별 지역을 넘어 권역 단위로 봅니다.</h2><p>최종 취약도 상위 20%와 LISA High–High를 동시에 만족한 지역은 인접 지자체 공동정책이 필요한 최우선 공간정책 대상으로 분류했습니다.</p></div>
+      <div class="figure-grid"><figure class="figure wide"><img src="assets/figure_23_spatial_priority_target_map.png" onerror="this.closest('figure').classList.add('empty')" alt="최우선 공간정책 지도"><figcaption><b>최우선 공간정책 대상 지도</b><span>상위 20%와 High–High가 겹치는 지역을 권역 공동정책 대상으로 제시합니다.</span></figcaption></figure><div class="priority"><h3>12개 최우선 대상</h3><ul id="priority12List"></ul></div></div>
+    </section>
+
+    <section id="whatif" class="section">
+      <div class="head"><span>05 · Policy What-if</span><h2>무엇을 개선하면 취약도가 낮아질까요?</h2><p>각 정책영역의 현재 부족 수준이 20% 또는 40% 완화된다는 가정 아래 지수를 재산정한 시나리오 분석입니다. 실제 정책효과를 인과적으로 예측한 결과가 아니라, 정책 우선순위 검토를 위한 가정 기반 분석입니다.</p></div>
+      <div class="triplet"><figure class="figure"><img src="assets/figure_14_top20_targeted_policy_effect_heatmap.png" onerror="this.closest('figure').classList.add('empty')" alt=""><figcaption><b>지역별 정책 시나리오</b><span>상위 취약지역별 개선 시나리오 결과를 비교합니다.</span></figcaption></figure><figure class="figure"><img src="assets/figure_15_best_policy_by_high_risk_region.png" onerror="this.closest('figure').classList.add('empty')" alt=""><figcaption><b>우선 정책영역</b><span>지역별로 가장 크게 지수가 개선되는 단일정책 영역을 보여줍니다.</span></figcaption></figure><figure class="figure"><img src="assets/figure_16_balanced_policy_before_after.png" onerror="this.closest('figure').classList.add('empty')" alt=""><figcaption><b>균형개선 전후 변화</b><span>복수 영역을 함께 개선했을 때의 지수 변화를 확인합니다.</span></figcaption></figure></div>
+    </section>
+
+    <section id="method" class="section">
+      <div class="head"><span>06 · Data & Method</span><h2>문화데이터 중심의 융합 분석</h2></div>
+      <div class="method"><article><b>문화자원</b><span>도서관 · 박물관/미술관 · 공연장 · 축제 · 관광지</span></article><article><b>수요취약성</b><span>고령화 · 1인가구 · 연령구조 · 인구밀도</span></article><article><b>접근환경</b><span>디지털 · 생활문화 · 포용환경 · 이동 보조환경</span></article><article><b>정책처방</b><span>복합지수 · 민감도 · What-if · Moran/LISA 공간분석</span></article></div>
+    </section>
+    <footer><b>CultureCare Atlas</b><span>문화데이터 기반 전국 시군구 문화접근 취약도 진단 및 정책 처방지도</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
